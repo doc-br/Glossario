@@ -231,7 +231,7 @@ random -> aleat&oacute;rio
 read only -> leitura apenas (<foreignphrase>read-only</foreignphrase>)|somente para leitura
 receive -> receber
 refuse file -> arquivo de <literal>refuse</literal>
-release -> <literal>release</literal>|vers&atilde;o|lan&ccedil;amento
+release -> <literal>release</literal>|vers&atilde;o|lan&ccedil;amento|lan&ccedil;amento (<foreignphrase>release</foreignphrase>)
 release branch -> ramo de lan&ccedil;amentos (<literal>release</literal>)
 resemble - assemelha-se
 revision tag -> etiqueta de revis&atilde;o (<foreignphrase>revision tags</foreignphrase>)
