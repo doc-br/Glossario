@@ -81,6 +81,8 @@ character -> caractere
 chat -> bate-papo|conversa|<foreignphrase>chat</foreignphrase>
 check -> verifique
 chunks -> parcelas|peda&ccedil;os
+claim -> reinvidicac&cedil;&atilde;o|reclamar|exigir|invocar
+claimed -> reinvidicada|reclamada|exigida|invocada
 command line shell -> ambiente de linha de comando 
 commercial maintainers of CVS -> consultores comerciais de CVS
 commit -> <literal>commit</literal>
