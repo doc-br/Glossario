@@ -75,6 +75,7 @@ browser -> navegador
 bug -> falha|defeito|erro|problema|<foreignphrase>bugs</foreignphrase>
 bug tracking -> rastreamento de falha
 build -> construir|compilar
+built in -> embutido
 bundled -> inclu&iacute;do|fornecido
 carry -> conter
 caveat -> poss&iacute;vel problema
