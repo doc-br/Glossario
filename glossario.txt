@@ -114,6 +114,7 @@ design -> projeto|desenho|engenharia|concep&ccedil;&atilde;o|desenvolvimento
 desktop -> <foreignphrase>desktop</foreignphrase>
 desktop publishing -> editora&ccedil;&atilde;o eletr&ocirc;nica
 developer -> desenvolvedor|colaborador
+device driver -> controlador de dispositivo
 dial up -> discar (se adequar-se a condicao verbal "to dial up")|discado|discagem|rede <literal>dial-up</litera
 dial-up -> discado|discagem|rede <literal>dial-up</literal>
 dialup -> discado|discagem|rede <literal>dial-up</literal>
