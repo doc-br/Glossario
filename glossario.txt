@@ -55,6 +55,7 @@ arcane -> arcano
 archiving tool -> ferramenta de armazenamento|arquivamento
 augmented -> suplementado
 authored -> est&aacute; escrito
+assign -> atribuir|determinar|relacionar
 azimuth -> azimute|posicionamento|coordenada (de antenas)
 background -> hist&oacute;rico
 background process -> processo em segundo plano
