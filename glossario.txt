@@ -146,6 +146,7 @@ gziped -> comprimido com <command>gzip</command>
 hack the code -> modificar o c&oacute;digo fonte
 hand -> m&atilde;o, dar|passar|transmitir
 handbook -> &a.ptbr.p.handbook;
+handle -> cuidar|responsabilizar-se por|responsabilide de|alavanca
 hardware -> <foreignphrase>hardware</foreignphrase>|equipamento
 have -> ter|possuir
 header file -> arquivo de cabe&ccedil;alho
