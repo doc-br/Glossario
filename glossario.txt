@@ -35,6 +35,8 @@ arcane -> arcano
 archiving tool -> ferramenta de armazenamento|arquivamento
 augmented -> suplementado
 authored -> est&aacute; escrito
+appearing -> aparecendo|surgindo
+azimuth -> azimute|posicionamento|coordenada (de antenas)
 background -> hist&oacute;rico
 background process -> processo em segundo plano
 backup -> c&oacute;pia de seguran&ccedil;a
@@ -64,6 +66,9 @@ compiled -> compilado
 compiled form -> forma <quote>compilada<quote>|formato compilado
 compress -> compress&atilde;o
 computer aided design tools -> ferramentas computacionais de aux&iacute;lio a projeto (<acronym>CAD</acronym>)
+Computer Systems Research Group (CSRG) -> Grupo de Pesquisa em Sistemas Computacionais (<acronym>CSRG</acronym>) 
+CSRG -> <acronym>CSRG</acronym>|<acronym>CSRG</acronym> (Grupo de Pesquisa em Sistemas Computacionais)
+design -> projeto|desenho|engenharia|concep&ccedil;&atilde;o|desenvolvimento
 copyright -> direito autoral
 copyright notice -> aviso de direito autoral|aviso de <foreignphrase>copyright</foreignphrase>
 core team -> grupo central (<literal>core team</literal>)
@@ -100,6 +105,7 @@ form -> formato|formul&aacute;rio
 fs -> sistema de arquivos (<foreignphrase>filesystem</foreignphrase>)
 full featured -> completo
 getting started -> come&ccedil;ando a usar
+gateway -> servidores de ligação|<foreignphrase>gateway</foreignphrase>|ligação
 glitches -> pequenos problemas temporarios de instabilidade (<foreignphrase>glitches</foreignphrase>)
 grouping -> agrupamento
 gziped -> comprimido com <command>gzip</command>
@@ -129,6 +135,7 @@ latest -> mais recente
 layer -> camada
 legacy -> legado
 legally state -> representa legalmente
+load -> carga|demanda|carregar
 log -> registro
 mail -> e-mail|correio eletr&ocric;nico|endere&ccedil;o de correio eletr&ocric;nico
 mailing list -> lista de discuss&atilde;o
@@ -146,6 +153,7 @@ mirror site -> sit&iacute;o espelho
 miscellaneous stuff -> &iacute;tens variados
 multiprocessing -> multi-processamento
 name -> denomina
+NAT -> <acronym>NAT</acronym>
 neat -> interessante
 need -> precisar
 net -> rede|rede de pesca
