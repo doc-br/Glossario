@@ -1,0 +1,347 @@
+	Algumas traducoes sao estranhas mas devemos tentar seguir
+a norma oficial do portugues brasileiro. Afinal de contas, quem
+irah ler a versao em portugues provavelmente estarah acostumado com
+estes termos traduzidos. Quem acha muito estranho (prefere eles em
+ingles) provavelmente irah ler a versao em ingles de qualquer
+maneira.
+
+	 Por exemplo, a traducao escolhida pelos especialistas em
+teoria da informacao para site eh s&iacute;tio. HORRIVEL mas eh o
+correto.  Entao, vamos tentar usar ela.
+
+	A regra de uso do glossario eh simples, | significa ou.
+A|B, A ou B. Em duvida qt a qual palavra escolher dentre opcoes de
+traducao, prefira as palavras mais a esquerda. A -> B|C. Prefira B
+se estiver em duvida.
+
+
+-------------------------------
+
+	Algumas sugestoes quanto a revisao de documentos
+
+* verificar se todos os artigos antes de FreeBSD sao necessarios
+
+Bem vindo &agrave;s Perguntas mais freq&uuml;entes da s&eacute;rie
+2.X at&eacute; a 4.X para o FreeBSD!
+
+ou
+
+
+Bem vindo &agrave;s Perguntas mais freq&uuml;entes da s&eacute;rie
+2.X at&eacute; a 4.X para FreeBSD!
+
+ou, mais simples ainda (simples sempre eh melhor)
+
+Bem vindo &agrave;s Perguntas Mais Freq&uuml;entes para as
+vers&otilde;es 2.X &aacute; 4.X do FreeBSD!
+
+* depois de separador frasal: ponto (.) ou ponto-e-virgula (;), dar
+2 espacos, nao soh 1. Eh 1 regra do fdp (FreeBSD Documentation Project) por causa de regras do
+emacs. Todos os sgml tem de seguir esta regra de espaco ou nao serao
+aceitos no CVS do FreeBSD.
+
+Fim de transmissao;  ou, nao.  Quem sabe.
+
+* nao usar artigo para palavras estrangeiras. FAQ eh ingles, logo
+nao eh masculino nem feminino
+
+* palavras q nao conseguimos traduzir, devem vir entre
+<foreignphrase></foreignphrase>. FAQ eh complicado pq eh um acronimo,
+como fazer? Bem, quando eh termo consagrado em qq lingua, i.e., FAQ
+significa a mesma coisa em qq lingua, colocaremos entre
+<literal></literal>.  Literal tb eh usado para termos consagrados
+no projeto, por exemplo, qd port significar 1 port do sistema de
+ports, <literal>port</literal>
+
+* FAQ -> <literal>FAQ</literal>
+* securelevel -> <literal>securelevel</literal> (n&iacute;vel de seguran&ccedil;a do sistema); fica em ingles pq eh 1 variavel no sistema, securelevel(8) ou init(8)
+
+* UN*X-like -> nao eh tipo unix, esta eh 1 denominacao oficial de qq
+sistema q nao pagou pra passar na certificacao unix (e nao paga
+direitos autorais), ou seja, eh UN*X-parecido ou UN*X-tipo. Vamos
+deixar isto em ingles como <foreignphrase>UN*X-like</foreignphrase>
+
+* port -> <literal>port</literal> se for 1 port do sistema de ports
+do FreeBSD. traduz como 'convers&atilde;o' se referir-se a 1 versao para
+1 outra plataforma. Cuidado, porte em portugues quer dizer porte de arma,
+ou transportar algo mesmo.
+
+-------------------------------
+		GLOSSARIO
+
+agudo -> &Aacute;
+cedilha -> &Ccedil;
+circunflexo -> &Acirc;
+crase -> &Agrave;
+til -> &Atilde;
+trema -> &Uuml;
+
+At the time of this writing -> no momento da prepara&ccedil;&atilde;o deste documento
+CD sets -> conjunto|jogo de CDs
+CDROM Publishers -> Publicadores de CDROM
+FreeBSD Documentation Project -> Projeto de Documenta&ccedil;&atilde;o do FreeBSD
+FreeBSD Mall -> FreeBSD Mall
+FreeBSD handbook -> vide handbook
+GNU Public License -> vide GPL
+GPL -> GPL|http://www.magnux.org/doc/GPL-pt_BR.txt -> Licen&ccedil;a P&uacute;blica Geral GNU (GPL)
+ISP -> Provedor de Servi&ccedil;o Internet
+Iceland -> Isl&acirc;ndia
+MFC -> acr&ocirc;nimo para obtido "a partir do ramo -CURRENT" (<foreignphrase>Merged From -CURRENT</foreignphrase>)
+Merged From -CURRENT -> vide MFC
+Netherlands -> Holanda
+Portuguese Brazilian speakers -> falantes de Portugu&ecirc;s do Brasil
+PostScript -> PostScript
+Retail Boxed Products -> Vendem box sets a varejo
+SPAM -> <literal>SPAM</literal>
+Show you how to install the wealth of third party applications available for FreeBSD -> Monstrando-lhe como instalar a riqueza de aplica&ccedil;&otile;es dispon&iacute;veis para FreeBSD
+Taiwan -> Taiwan (Formosa)
+That is really all there is to it -> Isto &eacute; tudo
+U. C. Berkeley -> University of California at Berkeley -> Universidade da California em Berkeley
+UN*X-like -> <foreignphrase>UN*X-like</foreignphrase>
+Unix basics -> princ&iacute;pios de Unix
+X window system -> X, sistema de interface gr&aacute;fica
+X, the Unix windowing system -> X, o sistema de interface gr&aacute;fica do sistema Unix
+additional software -> programas adicionais
+advisory -> aviso
+advocacy -> <foreignphrase>advocacy</foreignphrase>
+advocate -> advogar
+arcane -> arcano
+archiving tool -> ferramenta de armazenamento|arquivamento
+augmented -> suplementado
+authored -> est&aacute; escrito
+background -> hist&oacute;rico
+background process -> processo em segundo plano
+backup -> c&oacute;pia de seguran&ccedil;a
+backward-compatible -> compatibilidade com vers&otilde;es anteriores|compat&iacute;vel de forma regressa (<foreignphrase>backward-compatible</foreignphrase>)
+bit -> peda&ccedil;o
+bits (se for bit de byte) -> <foreignphrase>bits</foreignphrase>
+boiler plate -> texto padronizado
+boot -> inicializar|processo de inicializa&ccedil;&atilde;o
+booting -> inicializa&ccedil;&atilde;o
+box set -> <foreignphrase>box sets</foreignphrase>
+branch tag -> etiqueta de ramo (<foreignphrase>branch tag</foreignphrase>)
+bug -> falha|defeito|erro|problema|<foreignphrase>bugs</foreignphrase>
+bug tracking -> rastreamento de falha
+build -> construir|compilar
+bundled -> inclu&iacute;do|fornecido
+carry -> conter
+caveat -> poss&iacute;vel problema
+change -> modificar|mudar
+character -> caractere
+chat -> bate-papo|conversa|<foreignphrase>chat</foreignphrase>
+check -> verifique
+chunks -> parcelas|peda&ccedil;os
+commercial maintainers of CVS -> consultores comerciais de CVS
+commit -> <literal>commit</literal>
+committer -> desenvolvedor (<foreignphrase>committer</foreignphrase>)
+compiled -> compilado
+compiled form -> forma "compilada"|formato compilado
+compress -> compress&atilde;o
+computer aided design tools -> ferramentas computacionais de aux&iacute;lio a projeto (<acronym>CAD</acronym>)
+copyright -> direito autoral
+copyright notice -> aviso de direito autoral|aviso de <foreignphrase>copyright</foreignphrase>
+core team -> grupo central (<literal>core team</literal>)
+coup d'etat -> golpe de estado
+cron job -> <literal>job</literal> <command>cron</command>
+cryptgraphy -> criptografia
+current -> <literal>current</literal>|corrente|corrente (<literal>current</literal>)
+currently -> atualmente
+customization -> personaliza&ccedil;&atilde;o
+cyberspace -> ciberespa&ccedil;o
+database -> banco de dados
+debug -> depurar|depura&ccedil;&atilde;o
+decompress -> descomprimir
+default -> valor padr&atilde;o|padr&atilde;o
+desktop publishing -> editora&ccedil;&atilde;o eletr&ocirc;nica
+developer -> desenvolvedor|colaborador
+documentation -> documenta&ccedil;&atilde;o
+download -> baixar da internet|baixar da porta serial|baixar da rede|baixar de ...|<foreignphrase>download</foreignphrase>
+email -> e-mail|correio eletr&ocric;nico|endere&ccedil;o de correio eletr&ocric;nico
+embedded -> acoplado|embutido|<foreignphrase>embedded</foreignphrase>
+encrypt -> criptografar
+encryption -> criptografia
+engine -> ferramenta
+exemplary -> exemplar
+extra -> adicional
+feature -> funcionalidade|caracter&iacute;stica
+fetch -> obter|pegar
+filesystem -> sistema de arquivos (<foreignphrase>filesystem</foreignphrase>)
+firewall -> <foreignphrase>firewall</foreignphrase>
+flag field -> campo de sinaliza&ccedil;&atilde;o
+flavor -> variedade|sabor
+foreground process -> processo em primeiro plano
+form -> formato|formul&aacute;rio
+fs -> vide filesystem
+full featured -> completo
+getting started -> come&ccedil;ando a usar
+glitches -> pequenos problemas temporarios de instabilidade (<foreignphrase>glitches</foreignphrase>)
+grouping -> agrupamento
+gziped -> comprimido com <command>gzip</command>
+hack the code -> modificar o c&oacute;digo fonte
+hand -> m&atilde;o, dar|passar|transmitir
+handbook -> &a.ptbr.p.handbook;
+hardware -> <foreignphrase>hardware</foreignphrase>|equipamento
+have -> ter|possuir
+header file -> arquivo de cabe&ccedil;alho
+home page -> p&aacute;gina principal|<foreignphrase>home page</foreignphrase>
+host -> servidor
+indent -> endentar
+indentation -> endenta&ccedil;&atilde;o
+intended audiance -> p&uacute;blico alvo
+internet -> Internet
+internet relay chat -> bate-papo retransmitido via Internet (<acronym>IRC</acronym>)
+internetworking -> rede|<foreignphrase>internetworking</foreignphrase>
+introduction -> introd&ccedil;&atilde;o|apresenta&ccedil;&atilde;o
+java -> Java
+job -> servi&ccedil;o|trabalho
+keep track -> manter informa&ccedil;&atilde;o
+kernel -> <foreignphrase>kernel</foreignphrase>
+keyring -> <literal>keyring</literal>
+keyword -> palavra chave
+laptop -> <foreignphrase>laptop</foreignphrase>
+latest -> mais recente
+layer -> camada
+legacy -> legado
+legally state -> representa legalmente
+log -> registro
+mail -> vide email|correio
+mailing list -> lista de discuss&atilde;o
+main source -> c&oacute;digo fonte principal|fonte principal
+maintained -> [cuidado]|[zelado]|[mantido]
+maintainer -> respons&aacute;vel|<literal>maintainer</literal>
+make -> fazer
+man -> vide manual page
+man page -> vide manual page
+manual page -> p&aacute;gina de manual
+many tens of megabytes -> muitas dezenas de megabytes
+master -> prim&aacute;ria|mestre ; HDs sao mestre e escravo, controladoras IDE sao primaria e secondaria
+menu -> <foreignphrase>menu</foreignphrase>
+mirror site -> sit&iacute;o espelho
+miscellaneous stuff -> &iacute;tens variados
+multiprocessing -> multi-processamento
+name -> denomina
+neat -> interessante
+need -> precisar
+net -> vide rede|rede de pesca
+network -> rede
+networked -> conectado em rede
+new bus -> novo barramento|<literal>new bus</literal>
+news group -> vide newsgroup
+newsgroup -> grupos de not&iacute;cias (<foreignphrase>newsgroup</foreignphrase>)
+nifty -> atraente
+nutshell -> resumidamente|de modo resumido
+officer -> oficial
+online -> on-line
+open source -> c&oacute;digo aberto
+overall -> total|completo
+override -> sobrescrever|sobrepor
+package -> pacote
+packaged -> empacotado
+packages collection -> cole&ccedil;&atilde;o de pacotes
+patch -> corre&ccedil;&atilde;o|<foreignphrase>patch</foreignphrase>
+patch releases - vers&otilde;es de corre&ccedil;&atilde;o|<foreignphrase>patch releases</foreignphrase>
+piece -> parte
+pointy-clicky -> apontar-e-clicar
+port -> <literal>port</literal>|convers&atilde;o
+ports collection -> cole&ccedil;&atilde;o de <literal>ports</literal>
+pr -> vide problem report|<literal>pr</literal>
+preface -> pref&aacute;cio
+press -> pressionar
+print -> exibir|imprimir
+printing -> impress&atilde;o
+problem report -> relat&oacute;rio de problema
+procurement of substitute goods -> procurement bens substitu&iacute;veis
+provide -> fornecer
+pseudo-collection -> pseudocole&ccedil;&atilde;o
+pull model -> modelo puxar (<foreignphrase>pull</foreignphrase>)
+put together -> unir|juntar
+random -> aleat&oacute;rio
+read only -> leitura apenas (<foreignphrase>read-only</foreignphrase>)|somente para leitura
+receive -> receber
+refuse file -> arquivo de <literal>refuse</literal>
+release -> <literal>release</literal>|vers&atilde;o|lan&ccedil;amento
+release branch -> ramo de lan&ccedil;amentos (<literal>release</literal>)
+resemble - assemelha-se
+revision tag -> etiqueta de revis&atilde;o (<foreignphrase>revision tags</foreignphrase>)
+run -> executar
+running -> [usando]|[executando]|[funcionando]
+save -> gravar
+search -> procurar|realizar uma busca
+search the handbook -> realizar uma busca no manual
+securelevel -> <literal>securelevel</literal> (n&iacute;vel de seguran&ccedil;a do sistema)
+see -> ver|olhar|veja|olhe
+server host -> servidor
+set -> atribuir|ajustar
+set up -> criar|montar
+setup -> configura&ccedil;&atilde;o
+shell -> interpretador de comandos (<foreignphrase>shell</foreignphrase>)|<foreignphrase>shell</foreignphrase>
+since -> visto que|desde
+site -> sit&iacute;o
+slave -> secund&aacute;ria|escravo ; HDs sao mestre e escravo, controladoras IDE sao primaria e secondaria
+smooth -> suave
+smoothly -> suavemente
+snapshot -> <foreignphrase>snapshot</foreignphrase>
+software -> programa|<foreignphrase>software</foreignphrase>
+source -> vide source code
+source code -> c&oacute;digo fonte
+spoofed -> <foreignphrase>spoofed</foreignphrase>
+started -> iniciado|[inicializado]
+status -> estado
+status files -> arquivos de <literal>status</literal>
+storage -> armazenamento
+sub-collection -> subcole&ccedil;&otilde;es
+support -> suporta|cobre|apoiar|suporte
+tag -> etiqueta (<foreignphrase>tags</foreignphrase>)
+tester -> examinador|avaliador|pessoa que testa
+that -> esse, isso
+these -> estes
+this -> este, isto
+those -> esses
+tokenring -> <literal>tokenring</literal>
+toolkit -> conjunto de ferramentas|caixa de ferramentas
+toolset -> vide toolkit
+tort -> processual (pass&iacute;vel de processo)
+touch -> tocar
+trade-off -> compromisso (<foreignphrase>trade-off</foreignphrase>)|troca
+tree -> &aacute;rvore de diret&oacute;rio
+tuning -> ajustando|regulando|afinando|ajuste fino
+typesetting -> tipografia
+uncompress -> vide decompress
+update -> atualizar|atualiza&ccedil;&atilde;o
+use -> utilizar|usar
+userland -> {a,de} n&iacute;vel de usu&aacute;rio|fora do n&uacute;cleo do sistema (<foreignphrase>kernel</foreignphrase>)
+verbosity -> verbosidade
+via -> via|atrav&ecirc;s
+web -> teia mundial de computadores|teia mundial de computadores (<acronym>WWW</acronym>)|teia|www
+web site -> s&iacute;tio www
+webmaster -> Respons&aacute;vel pelo conte&uacute;do do S&iacute;tio WWW (<foreignphrase>webmaster</foreignphrase)
+well-known -> bem conhecido
+when prompted -> quando requerido
+www -> vide web
+
+-----------
+
+#Palavras ainda sem tradu&ccedil;&atilde;o ou de tradu&ccedil;&atilde;o duvidosa
+
+(TM) -> qual simbolo usar no portugues? (R) de marca registrada?
+Arizona -> Arizona
+FreeBSD Documentation Project Primer -> <foreignphrase>FreeBSD Documentation Project Primer</foreignphrase>
+GUI ->
+Germany, Trier -> Alemanha, Trier
+Illinois -> Illinois
+Kiev -> Kiev
+Massachusetts -> Massachusetts
+Minnesota -> Minnesota
+Stacken, KTH, Sweden -> Stacken, KTH, Su&eacute;cia
+Taiwan, Chiayi -> Taiwan (Formosa), Chiayi
+Trinity College, Dublin -> Trinity College, Dublin
+Virginia -> Virg&iacute;nia
+benchmark -> an&aacute;lise de desempenho|programa para an&aacute;lise de desempenho (<foreignphrase>benchmark</foreignphrase>)
+command line shell -> ambiente de linha de comando 
+desktop -> <foreignphrase>desktop</foreignphrase>
+guidelines -> considera&ccedil;&otilde;es|linhas gerais
+link ->
+stylesheet ->
+the bleeding edge ->
+the cutting edge -> ponto crucial ? tem de ter outra traducao
+
