@@ -1,6 +1,7 @@
 (TM) -> (R)
 Arizona -> Arizona
 At the time of this writing -> no momento da prepara&ccedil;&atilde;o deste documento
+BIOS -> <acronym>BIOS</acronym>
 CD sets -> conjunto de CDs|jogo de CDs
 CDROM Publishers -> Publicadores de CDROM
 CSRG -> <acronym>CSRG</acronym>|<acronym>CSRG</acronym> (Grupo de Pesquisa em Sistemas Computacionais)
@@ -107,6 +108,7 @@ database -> banco de dados
 debug -> depurar|depura&ccedil;&atilde;o
 decompress -> descomprimir
 default -> valor padr&atilde;o|padr&atilde;o
+depth -> escala|profundidade|nivel
 design -> projeto|desenho|engenharia|concep&ccedil;&atilde;o|desenvolvimento
 desktop -> <foreignphrase>desktop</foreignphrase>
 desktop publishing -> editora&ccedil;&atilde;o eletr&ocirc;nica
@@ -157,7 +159,7 @@ introduction -> introd&ccedil;&atilde;o|apresenta&ccedil;&atilde;o
 java -> Java
 job -> servi&ccedil;o|trabalho
 keep track -> manter informa&ccedil;&atilde;o
-kernel -> <foreignphrase>kernel</foreignphrase>
+kernel -> <literal>kernel</literal>
 kernel-* -> de n&iacute;vel do <literal>kernel</literal>|no n&iacute;vel de <literal>kernel</literal>|modo do <literal>kernel</literal>
 keyring -> <literal>keyring</literal>
 keyword -> palavra chave
