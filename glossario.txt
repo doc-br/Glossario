@@ -8,7 +8,7 @@ CSRG -> <acronym>CSRG</acronym>|<acronym>CSRG</acronym> (Grupo de Pesquisa em Si
 Computer Systems Research Group (CSRG) -> Grupo de Pesquisa em Sistemas Computacionais (<acronym>CSRG</acronym>) 
 FAQ -> <literal>FAQ</literal>
 FreeBSD Documentation Project -> Projeto de Documenta&ccedil;&atilde;o do FreeBSD
-FreeBSD Documentation Project Primer -> <foreignphrase>FreeBSD Documentation Project Primer</foreignphrase>
+FreeBSD Documentation Project Primer -> &a.ptbr.p.fdpp;
 FreeBSD Mall -> FreeBSD Mall
 FreeBSD handbook -> &a.ptbr.p.handbook;
 GNU Public License -> GPL|http://www.magnux.org/doc/GPL-pt_BR.txt -> Licen&ccedil;a P&uacute;blica Geral GNU (GPL)
