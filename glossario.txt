@@ -23,6 +23,9 @@ Show you how to install the wealth of third party applications available for Fre
 Taiwan -> Taiwan (Formosa)
 That is really all there is to it -> Isto &eacute; tudo
 U. C. Berkeley -> University of California at Berkeley -> Universidade da California em Berkeley
+United States -> Estados Unidos da Am&eacute;rica
+United States of America -> Estados Unidos da Am&eacute;rica
+US -> EUA|EEUU|conosco
 UN*X-like -> <foreignphrase>UN*X-like</foreignphrase>
 Unix basics -> princ&iacute;pios de Unix
 X window system -> X, sistema de interface gr&aacute;fica
