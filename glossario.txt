@@ -147,6 +147,7 @@ handbook -> &a.ptbr.p.handbook;
 hardware -> <foreignphrase>hardware</foreignphrase>|equipamento
 have -> ter|possuir
 header file -> arquivo de cabe&ccedil;alho
+home directory -> diretório <literal>home</literal>
 home page -> p&aacute;gina principal|<foreignphrase>home page</foreignphrase>
 host -> servidor
 indent -> endentar
