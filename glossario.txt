@@ -48,6 +48,7 @@ boot -> inicializar|processo de inicializa&ccedil;&atilde;o
 booting -> inicializa&ccedil;&atilde;o
 box set -> <foreignphrase>box sets</foreignphrase>
 branch tag -> etiqueta de ramo (<foreignphrase>branch tag</foreignphrase>)
+branch -> ramo|s&eacute;rie
 bug -> falha|defeito|erro|problema|<foreignphrase>bugs</foreignphrase>
 bug tracking -> rastreamento de falha
 build -> construir|compilar
