@@ -238,6 +238,7 @@ toolset -> conjunto de ferramentas|caixa de ferramentas
 tort -> processual (pass&iacute;vel de processo)
 touch -> tocar
 trade-off -> compromisso (<foreignphrase>trade-off</foreignphrase>)|troca
+trademark -> marca registrada
 tree -> &aacute;rvore de diret&oacute;rio
 tuning -> ajustando|regulando|afinando|ajuste fino
 typesetting -> tipografia
