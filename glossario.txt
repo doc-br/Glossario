@@ -204,6 +204,7 @@ nutshell -> resumidamente|de modo resumido
 officer -> oficial
 online -> on-line
 open source -> c&oacute;digo aberto
+output -> sa&iacute;da|sa&iacute;da (<foreignphrase>output</foreignphrase>)
 overall -> total|completo
 override -> sobrescrever|sobrepor
 package -> pacote
