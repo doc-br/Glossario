@@ -191,6 +191,7 @@ net -> rede|rede de pesca
 network -> rede
 networked -> conectado em rede
 new bus -> novo barramento|<literal>new bus</literal>
+newcomer -> novos usu&aacute;rios|novatos|rec&eacute;-chegados
 news -> not&iacute;cias|<foreignphrase>news</foreignphrase>|grupo de not&iacute;cias
 news group -> grupo de not&iacute;cias (<foreignphrase>newsgroup</foreignphrase>
 newsgroup -> grupo de not&iacute;cias (<foreignphrase>newsgroup</foreignphrase>)
