@@ -1,93 +1,19 @@
-	Algumas traducoes sao estranhas mas devemos tentar seguir
-a norma oficial do portugues brasileiro. Afinal de contas, quem
-irah ler a versao em portugues provavelmente estarah acostumado com
-estes termos traduzidos. Quem acha muito estranho (prefere eles em
-ingles) provavelmente irah ler a versao em ingles de qualquer
-maneira.
-
-	 Por exemplo, a traducao escolhida pelos especialistas em
-teoria da informacao para site eh s&iacute;tio. HORRIVEL mas eh o
-correto.  Entao, vamos tentar usar ela.
-
-	A regra de uso do glossario eh simples, | significa ou.
-A|B, A ou B. Em duvida qt a qual palavra escolher dentre opcoes de
-traducao, prefira as palavras mais a esquerda. A -> B|C. Prefira B
-se estiver em duvida.
-
-
--------------------------------
-
-	Algumas sugestoes quanto a revisao de documentos
-
-* verificar se todos os artigos antes de FreeBSD sao necessarios
-
-Bem vindo &agrave;s Perguntas mais freq&uuml;entes da s&eacute;rie
-2.X at&eacute; a 4.X para o FreeBSD!
-
-ou
-
-
-Bem vindo &agrave;s Perguntas mais freq&uuml;entes da s&eacute;rie
-2.X at&eacute; a 4.X para FreeBSD!
-
-ou, mais simples ainda (simples sempre eh melhor)
-
-Bem vindo &agrave;s Perguntas Mais Freq&uuml;entes para as
-vers&otilde;es 2.X &aacute; 4.X do FreeBSD!
-
-* depois de separador frasal: ponto (.) ou ponto-e-virgula (;), dar
-2 espacos, nao soh 1. Eh 1 regra do fdp (FreeBSD Documentation Project) por causa de regras do
-emacs. Todos os sgml tem de seguir esta regra de espaco ou nao serao
-aceitos no CVS do FreeBSD.
-
-Fim de transmissao;  ou, nao.  Quem sabe.
-
-* nao usar artigo para palavras estrangeiras. FAQ eh ingles, logo
-nao eh masculino nem feminino
-
-* palavras q nao conseguimos traduzir, devem vir entre
-<foreignphrase></foreignphrase>. FAQ eh complicado pq eh um acronimo,
-como fazer? Bem, quando eh termo consagrado em qq lingua, i.e., FAQ
-significa a mesma coisa em qq lingua, colocaremos entre
-<literal></literal>.  Literal tb eh usado para termos consagrados
-no projeto, por exemplo, qd port significar 1 port do sistema de
-ports, <literal>port</literal>
-
-* FAQ -> <literal>FAQ</literal>
-* securelevel -> <literal>securelevel</literal> (n&iacute;vel de seguran&ccedil;a do sistema); fica em ingles pq eh 1 variavel no sistema, securelevel(8) ou init(8)
-
-* UN*X-like -> nao eh tipo unix, esta eh 1 denominacao oficial de qq
-sistema q nao pagou pra passar na certificacao unix (e nao paga
-direitos autorais), ou seja, eh UN*X-parecido ou UN*X-tipo. Vamos
-deixar isto em ingles como <foreignphrase>UN*X-like</foreignphrase>
-
-* port -> <literal>port</literal> se for 1 port do sistema de ports
-do FreeBSD. traduz como 'convers&atilde;o' se referir-se a 1 versao para
-1 outra plataforma. Cuidado, porte em portugues quer dizer porte de arma,
-ou transportar algo mesmo.
-
--------------------------------
-		GLOSSARIO
-
-agudo -> &Aacute;
-cedilha -> &Ccedil;
-circunflexo -> &Acirc;
-crase -> &Agrave;
-til -> &Atilde;
-trema -> &Uuml;
-
+FAQ -> <literal>FAQ</literal>
+securelevel -> <literal>securelevel</literal> (n&iacute;vel de seguran&ccedil;a do sistema); fica em ingles pq eh 1 variavel no sistema, securelevel(8) ou init(8)
+UN*X-like -> <foreignphrase>UN*X-like</foreignphrase>
+port -> <literal>port</literal>|convers&atilde;o
 At the time of this writing -> no momento da prepara&ccedil;&atilde;o deste documento
-CD sets -> conjunto|jogo de CDs
+CD sets -> conjunto de CDs|jogo de CDs
 CDROM Publishers -> Publicadores de CDROM
 FreeBSD Documentation Project -> Projeto de Documenta&ccedil;&atilde;o do FreeBSD
 FreeBSD Mall -> FreeBSD Mall
-FreeBSD handbook -> vide handbook
-GNU Public License -> vide GPL
+FreeBSD handbook -> &a.ptbr.p.handbook;
+GNU Public License -> GPL|http://www.magnux.org/doc/GPL-pt_BR.txt -> Licen&ccedil;a P&uacute;blica Geral GNU (GPL)
 GPL -> GPL|http://www.magnux.org/doc/GPL-pt_BR.txt -> Licen&ccedil;a P&uacute;blica Geral GNU (GPL)
 ISP -> Provedor de Servi&ccedil;o Internet
 Iceland -> Isl&acirc;ndia
 MFC -> acr&ocirc;nimo para obtido "a partir do ramo -CURRENT" (<foreignphrase>Merged From -CURRENT</foreignphrase>)
-Merged From -CURRENT -> vide MFC
+Merged From -CURRENT -> acr&ocirc;nimo para obtido "a partir do ramo -CURRENT" (<foreignphrase>Merged From -CURRENT</foreignphrase>)
 Netherlands -> Holanda
 Portuguese Brazilian speakers -> falantes de Portugu&ecirc;s do Brasil
 PostScript -> PostScript
@@ -135,7 +61,7 @@ commercial maintainers of CVS -> consultores comerciais de CVS
 commit -> <literal>commit</literal>
 committer -> desenvolvedor (<foreignphrase>committer</foreignphrase>)
 compiled -> compilado
-compiled form -> forma "compilada"|formato compilado
+compiled form -> forma <quote>compilada<quote>|formato compilado
 compress -> compress&atilde;o
 computer aided design tools -> ferramentas computacionais de aux&iacute;lio a projeto (<acronym>CAD</acronym>)
 copyright -> direito autoral
@@ -171,7 +97,7 @@ flag field -> campo de sinaliza&ccedil;&atilde;o
 flavor -> variedade|sabor
 foreground process -> processo em primeiro plano
 form -> formato|formul&aacute;rio
-fs -> vide filesystem
+fs -> sistema de arquivos (<foreignphrase>filesystem</foreignphrase>)
 full featured -> completo
 getting started -> come&ccedil;ando a usar
 glitches -> pequenos problemas temporarios de instabilidade (<foreignphrase>glitches</foreignphrase>)
@@ -204,14 +130,14 @@ layer -> camada
 legacy -> legado
 legally state -> representa legalmente
 log -> registro
-mail -> vide email|correio
+mail -> e-mail|correio eletr&ocric;nico|endere&ccedil;o de correio eletr&ocric;nico
 mailing list -> lista de discuss&atilde;o
 main source -> c&oacute;digo fonte principal|fonte principal
 maintained -> [cuidado]|[zelado]|[mantido]
 maintainer -> respons&aacute;vel|<literal>maintainer</literal>
 make -> fazer
-man -> vide manual page
-man page -> vide manual page
+man -> p&aacute;gina de manual
+man page -> p&aacute;gina de manual
 manual page -> p&aacute;gina de manual
 many tens of megabytes -> muitas dezenas de megabytes
 master -> prim&aacute;ria|mestre ; HDs sao mestre e escravo, controladoras IDE sao primaria e secondaria
@@ -222,12 +148,12 @@ multiprocessing -> multi-processamento
 name -> denomina
 neat -> interessante
 need -> precisar
-net -> vide rede|rede de pesca
+net -> rede|rede de pesca
 network -> rede
 networked -> conectado em rede
 new bus -> novo barramento|<literal>new bus</literal>
-news group -> vide newsgroup
-newsgroup -> grupos de not&iacute;cias (<foreignphrase>newsgroup</foreignphrase>)
+news group -> grupo de not&iacute;cias (<foreignphrase>newsgroup</foreignphrase>
+newsgroup -> grupo de not&iacute;cias (<foreignphrase>newsgroup</foreignphrase>)
 nifty -> atraente
 nutshell -> resumidamente|de modo resumido
 officer -> oficial
@@ -244,7 +170,7 @@ piece -> parte
 pointy-clicky -> apontar-e-clicar
 port -> <literal>port</literal>|convers&atilde;o
 ports collection -> cole&ccedil;&atilde;o de <literal>ports</literal>
-pr -> vide problem report|<literal>pr</literal>
+pr -> relat&oacute;rio de problema|<foreignphrase>Problem Report</foreignphrase> <literal>pr</literal>
 preface -> pref&aacute;cio
 press -> pressionar
 print -> exibir|imprimir
@@ -282,7 +208,7 @@ smooth -> suave
 smoothly -> suavemente
 snapshot -> <foreignphrase>snapshot</foreignphrase>
 software -> programa|<foreignphrase>software</foreignphrase>
-source -> vide source code
+source -> c&oacute;digo fonte
 source code -> c&oacute;digo fonte
 spoofed -> <foreignphrase>spoofed</foreignphrase>
 started -> iniciado|[inicializado]
@@ -299,14 +225,14 @@ this -> este, isto
 those -> esses
 tokenring -> <literal>tokenring</literal>
 toolkit -> conjunto de ferramentas|caixa de ferramentas
-toolset -> vide toolkit
+toolset -> conjunto de ferramentas|caixa de ferramentas
 tort -> processual (pass&iacute;vel de processo)
 touch -> tocar
 trade-off -> compromisso (<foreignphrase>trade-off</foreignphrase>)|troca
 tree -> &aacute;rvore de diret&oacute;rio
 tuning -> ajustando|regulando|afinando|ajuste fino
 typesetting -> tipografia
-uncompress -> vide decompress
+uncompress -> descomprimir
 update -> atualizar|atualiza&ccedil;&atilde;o
 use -> utilizar|usar
 userland -> {a,de} n&iacute;vel de usu&aacute;rio|fora do n&uacute;cleo do sistema (<foreignphrase>kernel</foreignphrase>)
@@ -317,16 +243,11 @@ web site -> s&iacute;tio www
 webmaster -> Respons&aacute;vel pelo conte&uacute;do do S&iacute;tio WWW (<foreignphrase>webmaster</foreignphrase)
 well-known -> bem conhecido
 when prompted -> quando requerido
-www -> vide web
-
------------
-
-#Palavras ainda sem tradu&ccedil;&atilde;o ou de tradu&ccedil;&atilde;o duvidosa
-
-(TM) -> qual simbolo usar no portugues? (R) de marca registrada?
+www -> teia mundial de computadores|teia mundial de computadores (<acronym>WWW</acronym>)|teia|www
+(TM) -> (R)
 Arizona -> Arizona
 FreeBSD Documentation Project Primer -> <foreignphrase>FreeBSD Documentation Project Primer</foreignphrase>
-GUI ->
+GUI -> <acronym>GUI</acronym>
 Germany, Trier -> Alemanha, Trier
 Illinois -> Illinois
 Kiev -> Kiev
@@ -340,8 +261,24 @@ benchmark -> an&aacute;lise de desempenho|programa para an&aacute;lise de desemp
 command line shell -> ambiente de linha de comando 
 desktop -> <foreignphrase>desktop</foreignphrase>
 guidelines -> considera&ccedil;&otilde;es|linhas gerais
-link ->
-stylesheet ->
-the bleeding edge ->
-the cutting edge -> ponto crucial ? tem de ter outra traducao
-
+link -> <foreignphrase>link</foreignphrase>|liga&ccedil;&atilde;o
+stylesheet -> <foreignphrase>stylesheet</foreignphrase>|estilo|folha de rosto
+the bleeding edge ->  ponto crucial|mais recente|vers&atilde;o mais recente
+the cutting edge -> ponto crucial|mais recente|vers&atilde;o mais recente
+browser -> navegador
+news -> not&iacute;cias|<foreignphrase>news</foreignphrase>|grupo de not&iacute;cias
+NEWS -> <acronym>NEWS</acronym> (Netware Early Warning System)|<acronym>NEWS</acronym>|<foreignphrase>Netware Early Warning System</foreignphrase>
+NeWS -> <acronym>NeWS</acronym> (Network extensible Window System)|<acronym>NeWS</acronym>|<foreignphrase>Network extensible Window System</foreignphrase>
+newsgroup -> grupos de not&iacute;cias (<foreignphrase>newsgroup</foreignphrase>)
+script -> <literal>script</literal>
+compliant -> de acordo|em acordo|adequado|compat&iacute;vel
+standards-compliant -> aderente ao padr&atilde;o|adequado a padr&otilde;es|de acordo com os padr&otilde;es
+productivity -> produtividade|ferramentas de produtividade (referindo-se a uma qualidade de software)
+userland -> n&iacute;vel do usu&aacute;rio|de n&iacute;vel do usu&aacute;rio|no n&iacute;vel de usu&aacute;rio|de n&iacute;vel do usu&aacute;rio
+dial-up -> discado|discagem|rede <literal>dial-up</literal>
+dialup -> discado|discagem|rede <literal>dial-up</literal>
+dial up -> discar (se adequar-se a condicao verbal "to dial up")|discado|discagem|rede <literal>dial-up</litera
+user-* -> de n&iacute;vel do usu&aacute;rio|no n&iacute;vel de usu&aacute;rio|de modo usu&aacute;rio
+kernel-* -> de n&iacute;vel do <literal>kernel</literal>|no n&iacute;vel de <literal>kernel</literal>|modo do <literal>kernel</literal>
+user-PPP -> <acronym>PPP</acronym> em modo usu&aacute;rio|PPP no modo usu&aacute;rio
+user PPP -> <acronym>PPP</acronym> em modo usu&aacute;rio|PPP no modo usu&aacute;rio
