@@ -282,3 +282,4 @@ user-* -> de n&iacute;vel do usu&aacute;rio|no n&iacute;vel de usu&aacute;rio|de
 kernel-* -> de n&iacute;vel do <literal>kernel</literal>|no n&iacute;vel de <literal>kernel</literal>|modo do <literal>kernel</literal>
 user-PPP -> <acronym>PPP</acronym> em modo usu&aacute;rio|PPP no modo usu&aacute;rio
 user PPP -> <acronym>PPP</acronym> em modo usu&aacute;rio|PPP no modo usu&aacute;rio
+stall -> estagnar
