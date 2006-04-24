@@ -65,6 +65,7 @@ backward-compatible -> compatibilidade com vers&otilde;es anteriores|compat&iacu
 benchmark -> an&aacute;lise de desempenho|programa para an&aacute;lise de desempenho (<foreignphrase>benchmark</foreignphrase>)
 bit -> peda&ccedil;o
 bits (se for bit de byte) -> <foreignphrase>bits</foreignphrase>
+byte -> <foreignphrase>byte</foreignphrase>
 boiler plate -> texto padronizado
 boot -> inicializar|processo de inicializa&ccedil;&atilde;o
 booting -> inicializa&ccedil;&atilde;o
