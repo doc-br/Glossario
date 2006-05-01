@@ -309,3 +309,4 @@ well-known -> bem conhecido
 when prompted -> quando requerido
 www -> teia mundial de computadores|teia mundial de computadores (<acronym>WWW</acronym>)|teia|www
 stdout -> <literal>stdout</literal>
+stdin -> <literal>stdin</literal>
